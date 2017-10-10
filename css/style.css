@@ -1,46 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic,cyrillic-ext');
 
 
+
+
+1
 body, html{
 	font-family: 'Philosopher', sans-serif;
 
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
+word-wrap: break-word;
+
+	width: 720px;
+   
 }
 
+#tex {
+	word-wrap: break-word;
+
+}
 
 
 h1{
 	text-transform: uppercase;
+	
+
 }
 h1 strong{
 	font-weight: 900;
+	
+
 }
 h2{
 	text-transform: uppercase;
-	line-height: 20px;
+	
 	margin:  0;
+	
+
 }
 h3{
-font-size: 18px;
+
 font-weight: 900;
+
+
 }
 h4{
 	text-transform: uppercase;
+	word-wrap: break-word;
+
 }
 h5{
 	text-transform: uppercase;
 	font-weight: 700;
-	line-height: 20px;
+	
+	
+
 }
 p{
 	font-family: 'Open Sans', sans-serif;
 }
 p.intro{
-	font-size: 16px;
+	font-size: 100%;
 	margin: 12px 0 0;
-	line-height: 24px;
+	line-height: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 a{ color: #5f208e;}
@@ -168,7 +191,7 @@ a.fa.fa-angle-down:hover{
 }
 /* About Section */
 #tf-about{
-	padding: 80px 0;
+	padding: 90px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -611,16 +634,21 @@ p {
    div {
    	width:100%; 
    	height:auto;
+   	width: auto;
    }
 
 
 form {
    padding: 20px;
+
+	max-width: 90%;
+
 }
 form .left, form .right {
    display: inline-block;
    vertical-align: top;
-   width: 458px;
+  
+   width: 60%;
 }
 form .right {
    padding-left: 20px;
@@ -636,10 +664,12 @@ input, textarea {
    padding: 10px;
    font-size: 16px;
    width: 436px;
+   max-width: 90%;
 }
 textarea {
    height: 98px;
    margin-bottom: 32px;
+   max-width: 90%;
 }
 input[type="submit"] {
    width: 200px;
