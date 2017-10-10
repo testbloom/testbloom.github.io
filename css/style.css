@@ -149,6 +149,7 @@ font-weight: 900;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
+
 }
 
 #tf-home .overlay{
@@ -168,7 +169,8 @@ font-weight: 900;
 
 .content{
 	position: relative;
-	padding: 20% 0 0;
+	
+	padding-top: 210px;
 }
 
 .color{
