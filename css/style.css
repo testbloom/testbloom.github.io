@@ -3,7 +3,7 @@
 
 
 
-1
+
 body, html{
 	font-family: 'Philosopher', sans-serif;
 
@@ -12,7 +12,7 @@ body, html{
 	color: #5a5a5a;
 word-wrap: break-word;
 
-	width: 720px;
+	
    
 }
 
@@ -472,7 +472,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Testimonials Section */
 #tf-testimonials{
-	background: url(../img/05.jpg);
+	background: url(../img/01.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -577,7 +577,7 @@ nav#footer{
 nav#footer .fnav{ vertical-align: middle;}
 ul.footer-social li{
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 70px;
 }
 nav#footer p{
 	font-size: 11px;
@@ -642,17 +642,15 @@ p {
 
 form {
 	position: relative;
-   padding: 40px;
+
  min-width: 300px;
-	width: 70%;
+ max-width: 700px;
+	width: 30%;
+
+	
 
 }
-form .left, form .right {
- 
-   vertical-align: top;
-  
 
-}
 form .right {
    padding-left: 20px;
 }
@@ -666,8 +664,8 @@ input, textarea {
    border: 1px solid #82858D;
    padding: 10px;
    font-size: 16px;
-   width: 436px;
-   max-width: 90%;
+   width: 236px;
+   max-width: 70%;
 }
 textarea {
    height: 98px;
@@ -693,3 +691,74 @@ input[type="submit"] {
 	border-radius: 65px;
 	
 }
+#imgb2  {
+	border-radius: 15px;
+	
+}
+
+.btn {
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #a281cd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c00dfc;
+  text-decoration: none;
+  color:  #ffffff;
+}
+#ligm {
+	 float: left;
+	 float: left; 
+
+}
+
+
+
+#f1 {
+
+}
+
+
+form {
+    position: relative;
+   padding: 40px;
+ min-width: 100px;
+    width: 70%;
+
+}
+
+form .right {
+   padding-left: 20px;
+}
+label {
+   display: block;
+   font-size: 18px;
+   text-align: center;
+   margin: 0px 0px 0px 0px;
+}
+input, textarea {
+   border: 1px solid #82858D;
+   padding: 10px;
+   font-size: 16px;
+   width: 336px;
+   max-width: 90%;
+}
+textarea {
+   height: 40px;
+   margin-bottom: 32px;
+   max-width: 90%;
+}
+input[type="submit"] {
+   width: 200px;
+   float: right;
+   border: none;
+   background: #595B5F;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+
