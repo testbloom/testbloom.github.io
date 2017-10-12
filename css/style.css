@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic,cyrillic-ext');
-
-
+@import url('https://fonts.googleapis.com/css?family=Scada&subset=cyrillic,cyrillic-ext');
 
 
 
 body, html{
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Scada', sans-serif;
 
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -290,6 +288,11 @@ img.img-circle.team-img {
 	border-radius: 0;
 	background: #FFFFFF;
 	transition: all 0.5s;
+}
+.about-list {
+
+
+	text-align: left;
 }
 
 .owl-theme .owl-controls .owl-page.active span, 
@@ -689,11 +692,21 @@ input[type="submit"] {
 
 #imgb  {
 	border-radius: 65px;
-	
+	width: 50px;
+	height: 50px;
+
+   
+    
 }
 #imgb2  {
 	border-radius: 15px;
-	
+	position: relative;
+	 padding: 5px; 
+   
+    float: right; 
+ 
+    
+  bottom: 230px;
 }
 
 .btn {
