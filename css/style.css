@@ -206,7 +206,7 @@ a.fa.fa-angle-down:hover{
 /* About Section */
 #tf-about{
 	margin-left: 100px;
-	padding: 90px 0;
+	margin-bottom: -50px;
 
 }
 ul.about-list{ margin: 30px 0 0 ;}
