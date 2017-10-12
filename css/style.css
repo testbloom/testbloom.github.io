@@ -10,7 +10,9 @@ body, html{
 	color: #5a5a5a;
 word-wrap: break-word;
 
+	text-transform: uppercase;
 	
+	margin:  0;
    
 }
 
@@ -21,32 +23,43 @@ word-wrap: break-word;
 
 
 h1{
+	
 	text-transform: uppercase;
 	
-
+	margin:  0;
+margin:  0px;
+padding: 0px;
 }
 h1 strong{
 	font-weight: 900;
+	text-transform: uppercase;
 	
-
+	margin:  0;
+margin:  0px;
+padding: 0px;
 }
 h2{
 	text-transform: uppercase;
 	
 	margin:  0;
-	
+	margin:  0px;
+padding: 0px;
 
 }
 h3{
 
 font-weight: 900;
-
+margin:  0px;
+padding: 0px;
 
 }
 h4{
 	text-transform: uppercase;
 	word-wrap: break-word;
-
+	
+	margin:  0;
+	margin:  0px;
+padding: 0px;
 }
 h5{
 	text-transform: uppercase;
@@ -168,7 +181,7 @@ font-weight: 900;
 .content{
 	position: relative;
 	
-	padding-top: 210px;
+	padding-top: 160px;
 }
 
 .color{
@@ -191,17 +204,20 @@ a.fa.fa-angle-down:hover{
 }
 /* About Section */
 #tf-about{
+	margin-left: 100px;
 	padding: 90px 0;
+
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
+
 }
 ul.about-list li span{ 
-	margin-right: 10px;
+	
 }
 
 /* Team Section */
@@ -306,12 +322,24 @@ img.img-circle.team-img {
 }
 
 /* Services Section */
+#tf-ser
+{
+	padding-left: 225px;
+
+	
+}
+
 #tf-services{
 	padding: 80px 0;
+	
+
+	
 }
 
 .space{
-	margin-top: 40px;
+	margin-top: 60px;
+	
+
 }
 
 #tf-services i.fa {
@@ -627,6 +655,7 @@ nav#footer p{
 
 #yyt {
 	padding-left: 10px;
+
 }
 
 p {
@@ -637,11 +666,13 @@ p {
     line-height: 1.1em;
    }
    div {
-   	width:100%; 
+   	 
    	height:auto;
-   	width: auto;
-   }
 
+   }
+#tf-ser div {
+
+}
 
 form {
 	position: relative;
@@ -701,12 +732,11 @@ input[type="submit"] {
 #imgb2  {
 	border-radius: 15px;
 	position: relative;
-	 padding: 5px; 
-   
-    float: right; 
+  margin-right: 120px;
+     float: right; 
+ 	
+    bottom: 260px;
  
-    
-  bottom: 230px;
 }
 
 .btn {
@@ -725,8 +755,9 @@ input[type="submit"] {
 }
 #ligm {
 	 float: left;
-	 float: left; 
-
+	 padding: 0px;
+ height:220px;
+  width:330px;
 }
 
 
@@ -775,3 +806,20 @@ input[type="submit"] {
 }
 
 
+#tew {
+	padding-top: 80px;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  top:0px;
+  bottom: 0px;
+  padding-left: 240px;
+  right: 0px;
+}
+
+div.row
+{
+	width: 100%;
+}
