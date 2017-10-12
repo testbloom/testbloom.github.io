@@ -173,6 +173,7 @@ font-weight: 900;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	height: 750px;
 	background-attachment: fixed;
+	background-image: url(../img/11.jpg);
 }
 #tf-home p.lead{
 	color: #e3e3e3;
@@ -222,7 +223,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../img/11.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -240,6 +241,7 @@ ul.about-list li span{
 	height: auto;
 	background-attachment: fixed;
 	padding: 80px 0;
+	background-image: url(../img/11.jpg);
 }
 .section-title.center{
 	padding: 30px 0;
