@@ -819,7 +819,8 @@ For Menu Bar Design
     position: absolute;
    width: 800px;
    padding-top: 300px;
-   left: 400px;
+   left: 50%;
+   right: 50%;
 }
 .home-wrapper .home-content{
 	padding-top: 200px;
